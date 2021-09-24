@@ -46,6 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*Custom styles*/
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "roboto", sans-serif;
+  background-size: cover;
+  background: url(https://media.istockphoto.com/photos/green-leaf-with-dew-on-dark-nature-background-picture-id1050634172?k=20&m=1050634172&s=612x612&w=0&h=w0nk0tsmBysY4S119AhMJuUlof3Wf5FkJ3t2MD50oUE=) no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+}
+*,
+*::before
+*::after {
+  box-sizing: border-box;
+}
 /*general*/
  .container{
    max-width: 1200px;
@@ -61,13 +77,7 @@ table {
    text-align: center;
    font-size: 30px;
    font-weight: 700;
-   /* color: #fff; */
- }
- .bg{
-   background: crimson;
-   height: 300px;
-   width: 370px;
-   margin-top: 50px;
+   color: #fff;
  }
  .center{
    display: flex;
@@ -75,5 +85,31 @@ table {
    align-items: center;
    font-weight: 700;
  }
-
+ .box{
+  background-color: #fff;
+  height: 300px;
+  width: 30%;
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 50px;
+ }
+ .box1{
+   background-color: crimson;
+ }
+.box2{
+  background: linear-gradient(to right, #000, crimson);
+}
+.box3{
+  background: radial-gradient(crimson, #000);
+}
+.margin-top{
+  margin-top: 50px;
+}
+.big-box{
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to right bottom, transparent, crimson), url(https://wallpapercave.com/wp/wp2611191.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
 
